@@ -33,7 +33,7 @@ int main() {
     unsigned char key[8] = {0x01, 0x23, 0x45, 0x67, 0x89, 0xAB, 0xCD, 0xEF};
     unsigned char iv[8] = {0x12, 0x34, 0x56, 0x78, 0x90, 0xAB, 0xCD, 0xEF};
 
-    unsigned char plaintext[] = "Rafik0909";
+    unsigned char plaintext[] = "vignesh";
     int length = strlen((char *)plaintext);
     unsigned char ecb_ciphertext[length];
     memcpy(ecb_ciphertext, plaintext, length);
